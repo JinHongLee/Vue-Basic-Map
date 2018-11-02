@@ -1,25 +1,14 @@
 <template>
   <div id="app">
-    <mgl-map
-        :accessToken="accessToken"
-        :mapStyle.sync="mapStyle"
-    />
+
   </div>
 </template>
 
 <script>
-import { MglMap } from 'vue-mapbox'
+
 
 export default {
-  components: {
-    MglMap
-  },
-  data() {
-    return {
-      accessToken: pk.eyJ1Ijoic2xhIiwiYSI6Ik15dE1uclUifQ.ZmSBZxWOZYCSW3m71abSzQ, // your access token. Needed if you using Mapbox maps
-      mapStyle: styles/sla/cjnci1u153tqz2ro5eka7t0ef , // your map style
-    }
-  }
+
 }
 </script>
 
